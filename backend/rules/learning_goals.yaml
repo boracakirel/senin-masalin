@@ -1,0 +1,67 @@
+version: 1
+purpose: "Map learning goals to practical story strategies."
+goals:
+  sharing:
+    objective: "Child sees sharing as warm, voluntary and relationship-building."
+    story_strategy: "Give the protagonist a small resource that becomes more joyful when shared."
+    protagonist_behavior: "Offers, takes turns, notices another character's need."
+    ending_pattern: "Shared joy returns to the protagonist as friendship or gratitude."
+    avoid: "Do not force sharing through guilt or punishment."
+  friendship:
+    objective: "Child understands friendship as kindness, listening and repair."
+    story_strategy: "Use a small misunderstanding that is solved by talking."
+    protagonist_behavior: "Listens, apologizes when needed, invites inclusion."
+    ending_pattern: "Characters choose a shared game, task or quiet moment."
+    avoid: "Do not present popularity as the goal."
+  empathy:
+    objective: "Child notices and respects another character's feelings."
+    story_strategy: "Show another character's visible emotion and need."
+    protagonist_behavior: "Asks how the other feels and offers gentle help."
+    ending_pattern: "Both characters feel understood and safe."
+    avoid: "Do not make empathy self-sacrifice or mind-reading."
+  courage:
+    objective: "Child sees courage as trying safely despite worry."
+    story_strategy: "Create a small age-appropriate challenge."
+    protagonist_behavior: "Names fear, breathes, asks for support, takes one step."
+    ending_pattern: "The child feels proud of trying, not of being fearless."
+    avoid: "Do not reward reckless risk."
+  patience:
+    objective: "Child learns waiting can be active and calm."
+    story_strategy: "Use a delayed reward such as a seed growing or bread baking."
+    protagonist_behavior: "Counts, observes, helps with small steps."
+    ending_pattern: "The awaited result arrives gently."
+    avoid: "Do not shame impatience."
+  responsibility:
+    objective: "Child sees responsibility as caring for people, animals or belongings."
+    story_strategy: "Give the protagonist a manageable duty."
+    protagonist_behavior: "Remembers, repairs mistakes, asks for help."
+    ending_pattern: "The cared-for thing or relationship becomes stronger."
+    avoid: "Do not overload the child with adult burdens."
+  self_confidence:
+    objective: "Child trusts effort, voice and growing ability."
+    story_strategy: "Let the protagonist solve a problem with a personal strength."
+    protagonist_behavior: "Tries, practices, speaks kindly to self."
+    ending_pattern: "The child notices progress and receives warm recognition."
+    avoid: "Do not make worth depend on winning."
+  curiosity:
+    objective: "Child experiences questions as valuable and safe."
+    story_strategy: "Begin with a wonder about nature, neighborhood or an object."
+    protagonist_behavior: "Asks, observes, experiments safely."
+    ending_pattern: "A discovery opens a new gentle question."
+    avoid: "Do not punish mistakes made during safe exploration."
+  cooperation:
+    objective: "Child sees teamwork as combining different strengths."
+    story_strategy: "Create a task no one character can complete alone."
+    protagonist_behavior: "Invites help, shares roles, thanks others."
+    ending_pattern: "The group completes something kind or useful."
+    avoid: "Do not erase individual contribution."
+  honesty:
+    objective: "Child sees truth-telling as repair and trust."
+    story_strategy: "Use a small mistake that can be fixed by telling the truth."
+    protagonist_behavior: "Admits the mistake, helps repair it, accepts guidance."
+    ending_pattern: "Trust is restored with warmth."
+    avoid: "Do not use harsh punishment, humiliation or fear."
+references:
+  - "Yilmaz 2012, p.300: tales convey universal values such as honesty, patience, justice, equality and loyalty."
+  - "Robin 2016, p.22: shared stories support empathy, self-understanding and community-building."
+  - "Robin proceedings, p.4: storytelling supports communication, collaboration, ownership and meaningful expression."

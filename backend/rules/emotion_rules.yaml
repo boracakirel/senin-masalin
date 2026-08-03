@@ -1,0 +1,19 @@
+version: 1
+purpose: "Keep emotional content explicit, regulated and safe."
+rules:
+  name_emotions_for_younger_children:
+    instruction: "For ages 2-5, name emotions directly: sevindi, üzüldü, korktu, merak etti, rahatladı."
+  model_emotional_regulation:
+    instruction: "Show a character breathing, asking for help, pausing, naming the feeling or choosing a kind action."
+  end_with_safety_hope_warmth:
+    instruction: "End with safety, hope, warmth, belonging or peaceful sleep readiness."
+  avoid_shame_based_motivation:
+    instruction: "Do not motivate characters through humiliation, ridicule, rejection or fear of being unloved."
+  preserve_emotional_truth:
+    instruction: "Do not deny difficult feelings; show that feelings pass and can be handled safely."
+  keep_bedtime_tone:
+    instruction: "Avoid intense suspense in the final third of the story."
+references:
+  - "Robin proceedings, p.2: emotional content is a core storytelling element, but economy and pacing prevent overload."
+  - "Robin 2016, pp.19-20: storytelling can increase self-confidence, social learning and emotional intelligence."
+  - "Yilmaz 2012, pp.300-303: happy and hopeful tales support self-discovery, hope and emotional development."

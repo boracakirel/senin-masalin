@@ -1,0 +1,34 @@
+version: 1
+purpose: "Generate coherent, safe, educational bedtime story structure."
+structure:
+  beginning:
+    instruction: "Set the child, place, emotional tone, and one familiar desire quickly."
+  middle:
+    instruction: "Introduce one dramatic question and one central conflict."
+  end:
+    instruction: "Resolve the question positively and return the child to safety, hope and warmth."
+rules:
+  bedtime_story_length: "Keep the story short enough for bedtime and follow the recommended length from age_rules.yaml."
+  required_sections: "The story must contain title, beginning, adventure, resolution and moral content."
+  one_dramatic_question: "The story should be guided by one question that is answered by the end."
+  one_central_conflict_for_younger_children: "For ages 2-5, use exactly one simple conflict."
+  positive_resolution: "The ending must be safe, hopeful, and emotionally warm."
+  indirect_moral_message: "Teach values through events and choices, not lectures."
+  active_protagonist: "The protagonist should solve or help solve the problem through kind, brave or thoughtful action."
+  avoid_excessive_detail: "Use economy: include enough detail to imagine the scene without slowing the story."
+  good_pacing: "Move steadily from setup to problem to attempt to resolution."
+  emotional_content_without_fear: "Include feelings and stakes, but do not frighten the child."
+  bedtime_suitability: "End with calm sensory cues suitable for sleep."
+output_contract:
+  format: "Return one valid JSON object only. Do not add explanations, markdown, code fences or text outside JSON."
+  keys:
+    - "title"
+    - "baslangic"
+    - "macera"
+    - "sonuc"
+    - "moral"
+  moral: "The moral must be a single sentence, instructive but not pressuring or preachy."
+references:
+  - "Robin proceedings, p.2: digital storytelling elements include dramatic question, emotional content, economy and pacing."
+  - "Robin 2016, p.23: most stories have beginning, middle and end; the end resolves questions and connects back to the beginning."
+  - "Yilmaz 2012, pp.300-303: tales teach through sweetened lessons, indirect moral meaning, hope, goodness winning and child self-discovery."

@@ -1,0 +1,63 @@
+version: 1
+sources:
+  yilmaz_2012:
+    title: "Çocuk Eğitiminde Masalın Yeri (Binbir Gece Masalları Örneği)"
+    author: "Aliye Yılmaz"
+    publication: "SDÜ Fen Edebiyat Fakültesi Sosyal Bilimler Dergisi, May 2012, No.25, pp.299-306"
+    practical_use:
+      - "Tales transmit cultural and moral knowledge through fantasy motifs."
+      - "Happy endings and goodness prevailing support children's hope and self-discovery."
+      - "Tales contribute to moral, personality, emotional and mother-tongue development."
+      - "Children aged 4-8 are especially close to fairy-tale logic and fantasy."
+      - "Stories for children must be consciously selected and filtered for unsuitable content."
+    rule_groups:
+      - "age_rules"
+      - "language_rules"
+      - "story_rules"
+      - "learning_goals"
+      - "emotion_rules"
+      - "culture_rules"
+      - "forbidden_content"
+      - "theme_rules"
+  robin_2016:
+    title: "The Power of Digital Storytelling to Support Teaching and Learning"
+    author: "Bernard R. Robin"
+    publication: "Digital Education Review, No.30, December 2016, pp.17-29"
+    practical_use:
+      - "Storytelling supports communication, organizing ideas, asking questions and expressing opinions."
+      - "Shared stories support empathy, self-understanding and community-building."
+      - "Educational stories need focused scripts, audience awareness, feedback, revision and a beginning-middle-end arc."
+      - "Economy and pacing keep stories clear and useful."
+    rule_groups:
+      - "age_rules"
+      - "language_rules"
+      - "story_rules"
+      - "learning_goals"
+      - "emotion_rules"
+      - "culture_rules"
+      - "theme_rules"
+  robin_proceedings:
+    title: "The Educational Uses of Digital Storytelling"
+    author: "Bernard R. Robin"
+    publication: "Proceedings paper, University of Houston"
+    practical_use:
+      - "The seven storytelling elements include point of view, dramatic question, emotional content, voice, soundtrack, economy and pacing."
+      - "Story creation develops research, writing, organization, presentation, interpersonal, problem-solving and assessment skills."
+      - "Storytelling can make abstract content more understandable and engaging."
+      - "Poor storytelling remains poor even with technology, so structure and question design matter."
+    rule_groups:
+      - "language_rules"
+      - "story_rules"
+      - "learning_goals"
+      - "emotion_rules"
+      - "forbidden_content"
+      - "theme_rules"
+rule_mapping:
+  age_rules: "Derived from Yılmaz on developmental fit and fantasy, plus Robin on focused length, economy and pacing."
+  language_rules: "Derived from Yılmaz on mother-tongue development and Robin on communication and writing skills."
+  story_rules: "Derived from Robin's story arc, dramatic question, economy and pacing; reinforced by Yılmaz on indirect moral education."
+  learning_goals: "Derived from Yılmaz's moral values and Robin's empathy, self-understanding and community-building outcomes."
+  emotion_rules: "Derived from Robin's emotional content guidance and Yılmaz's emphasis on hope and emotional development."
+  culture_rules: "Derived from Yılmaz's cultural transmission function and Robin's cultural/perspective storytelling."
+  forbidden_content: "Derived from Yılmaz's warning to filter unsuitable classic tale content and Robin's economy/pacing guidance."
+  theme_rules: "Derived from Robin's focused story guidance and Yılmaz's developmentally appropriate fantasy guidance."

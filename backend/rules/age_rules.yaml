@@ -1,0 +1,746 @@
+version: 1
+purpose: "Generate age-appropriate Turkish bedtime stories."
+age_groups:
+  age_2_3:
+    developmental_goal: "Write for a 2-3 year-old child, not for adults; support language development, emotional development and short attention span."
+    required_structure:
+      - "Beginning"
+      - "Adventure"
+      - "Ending"
+      - "Moral"
+    sentence_length_guidance: "Use very short sentences; average sentence length must be 4-7 Turkish words."
+    sentence_count_guidance: "Use about 22-30 simple sentences so the story reaches 120-180 words without long sentences."
+    sentence_complexity:
+      required: "Use simple sentences only."
+      avoid:
+        - "compound sentences"
+        - "complex sentences"
+        - "long clauses"
+        - "abstract explanations"
+    tense: "Use simple present tense or simple past tense consistently; do not switch back and forth."
+    paragraph_count: "3-4 very short paragraphs, aligned with beginning, adventure, ending and moral."
+    recommended_story_length: "120-180 Turkish words."
+    minimum_story_length: "Never generate fewer than 120 Turkish words."
+    section_word_targets:
+      baslangic: "30-40 Turkish words."
+      macera: "55-75 Turkish words."
+      sonuc: "30-45 Turkish words."
+      moral: "4-7 Turkish words, one short sentence."
+    conflict_complexity: "Exactly one central problem only."
+    problem_timing: "Introduce the problem within the first 25 percent of the story."
+    problem_clarity: "The child should immediately understand what is wrong."
+    good_problem_examples:
+      - "A lost toy."
+      - "A crying bird."
+      - "A thirsty flower."
+      - "A lonely robot."
+      - "A missing rainbow color."
+    avoid_problem_patterns:
+      - "multiple independent problems"
+      - "hidden or confusing problem"
+      - "adult-like conflict"
+      - "danger-based conflict"
+    emotional_explicitness:
+      rule: "Explicitly include at least three emotion words."
+      required_style: "Name emotions directly instead of only implying them."
+      examples:
+        - "mutlu"
+        - "üzgün"
+        - "heyecanlı"
+        - "meraklı"
+        - "korkmuş"
+        - "rahatlamış"
+      good_example: "Robot üzgündü."
+      avoid_example: "Robot sessizce bekledi."
+    repetition:
+      rule: "Include one repeated phrase naturally at least twice."
+      exact_requirement: "The same short phrase must appear two times with the same wording."
+      examples:
+        - "Haydi gidelim!"
+        - "Merhaba yıldız!"
+    dialogue:
+      rule: "Include at least two very short dialogue lines."
+      examples:
+        - "Merhaba!"
+        - "Nereye gidiyorsun?"
+    fantasy_level:
+      rule: "Fantasy must remain gentle, friendly and emotionally safe."
+      allowed:
+        - "talking animals"
+        - "friendly robots"
+        - "smiling stars"
+        - "clouds"
+        - "moon"
+        - "trees"
+        - "fairies"
+      avoid:
+        - "monsters"
+        - "villains"
+        - "scary creatures"
+        - "dangerous magic"
+    characters:
+      maximum_active_characters: 3
+      example:
+        - "child"
+        - "one animal"
+        - "one robot"
+      avoid: "Do not introduce many supporting characters."
+    resolution:
+      safety: "Ending must feel safe, hopeful and warm."
+      problem_solution: "Main problem must be solved by kindness, cooperation or sharing."
+      avoid: "Never solve problems through fighting."
+    moral:
+      rule: "Moral must be one short sentence."
+      tone: "Do not preach or pressure the child."
+      good_example: "Yardımlaşmak herkesi mutlu eder."
+      avoid_example: "Bu yüzden hep yardım etmeliyiz."
+    vocabulary_level: "Everyday home, family, animal, color, body, feeling and nature words."
+  age_4_5:
+    developmental_goal: "Write for a 4-5 year-old child. Support language development, imagination, emotional understanding, curiosity and early problem-solving."
+
+    required_structure:
+      - "Beginning"
+      - "Adventure"
+      - "Challenge"
+      - "Ending"
+      - "Moral"
+
+    sentence_length_guidance: "Use short and natural sentences; average sentence length should be 6-10 Turkish words."
+
+    sentence_count_guidance: "Use about 28-40 sentences so the story reaches 220-350 Turkish words."
+
+    sentence_complexity:
+      required: "Mostly simple sentences with occasional coordinated sentences."
+      avoid:
+        - "long paragraphs"
+        - "abstract reasoning"
+        - "complex nested clauses"
+
+    tense: "Use simple present tense or simple past tense consistently."
+
+    paragraph_count: "4-5 short paragraphs following the story structure."
+
+    recommended_story_length: "220-350 Turkish words."
+
+    minimum_story_length: "Never generate fewer than 220 Turkish words."
+
+    section_word_targets:
+      baslangic: "45-60 Turkish words."
+      macera: "70-90 Turkish words."
+      challenge: "50-70 Turkish words."
+      sonuc: "40-55 Turkish words."
+      moral: "6-10 Turkish words."
+
+    conflict_complexity: "Exactly one central problem with one supporting obstacle."
+
+    problem_timing: "Introduce the main problem within the first 20 percent of the story."
+
+    problem_clarity: "The problem should be immediately understandable while encouraging curiosity."
+
+    good_problem_examples:
+      - "A lost baby bird."
+      - "A broken bridge."
+      - "A missing treasure map."
+      - "A flower that won't bloom."
+      - "A lonely dragon."
+
+    avoid_problem_patterns:
+      - "multiple unrelated conflicts"
+      - "emotionally overwhelming situations"
+      - "realistic danger"
+      - "adult responsibilities"
+
+    emotional_explicitness:
+      rule: "Include at least four clearly named emotions."
+
+      required_style: "Show why the character feels each emotion."
+
+      examples:
+        - "mutlu"
+        - "üzgün"
+        - "şaşkın"
+        - "meraklı"
+        - "heyecanlı"
+        - "gururlu"
+        - "rahatlamış"
+
+      good_example: "Alp heyecanlandı çünkü gökkuşağını ilk kez gördü."
+
+      avoid_example: "Alp garip hissetti."
+
+    repetition:
+
+      rule: "Use one repeated phrase naturally two or three times."
+
+      purpose: "Support engagement and anticipation."
+
+      examples:
+        - "Haydi birlikte bakalım!"
+        - "Belki başarabiliriz!"
+
+    dialogue:
+
+      rule: "Include at least four short dialogue lines."
+
+      guidance: "Dialogues should help move the story forward."
+
+    fantasy_level:
+
+      rule: "Fantasy may be richer but should remain emotionally safe."
+
+      allowed:
+        - "talking animals"
+        - "friendly dragons"
+        - "magic forests"
+        - "fairies"
+        - "robots"
+        - "living stars"
+        - "magic trains"
+
+      avoid:
+        - "horror"
+        - "violent villains"
+        - "nightmares"
+        - "dark magic"
+
+    characters:
+
+      maximum_active_characters: 5
+
+      recommended:
+        - "child"
+        - "two friends"
+        - "one magical helper"
+
+      avoid: "Introducing many new characters late in the story."
+
+    challenge:
+
+      rule: "The protagonist should make at least one meaningful decision."
+
+      avoid:
+        - "solving everything by luck"
+        - "an adult solving the problem"
+
+    resolution:
+
+      safety: "The ending should feel hopeful, warm and emotionally satisfying."
+
+      problem_solution: "The solution should come through cooperation, creativity, patience or kindness."
+
+      avoid:
+        - "violence"
+        - "punishment"
+        - "fear"
+
+    moral:
+
+      rule: "One short sentence."
+
+      tone: "Positive and encouraging."
+
+      good_example: "Birlikte çalışanlar daha kolay başarır."
+
+      avoid_example: "Asla böyle davranmamalısın."
+
+    vocabulary_level:
+
+      rule: "Mostly familiar vocabulary with a few new words that can be understood from context."
+
+    educational_focus:
+      - "curiosity"
+      - "problem solving"
+      - "friendship"
+      - "sharing"
+      - "emotional awareness"
+      - "imagination"
+  age_6_8:
+    developmental_goal: "Write for a 6-8 year-old child. Support reading development, curiosity, empathy, problem-solving, cooperation and growing independence."
+
+    required_structure:
+      - "Beginning"
+      - "Discovery"
+      - "First Challenge"
+      - "Second Challenge"
+      - "Climax"
+      - "Ending"
+      - "Moral"
+
+    sentence_length_guidance: "Use clear and varied sentences; average sentence length should be 8-14 Turkish words."
+
+    sentence_count_guidance: "Use about 45-70 sentences so the story reaches 500-800 Turkish words without becoming dense."
+
+    sentence_complexity:
+      required: "Use mostly simple and compound sentences, with occasional short complex sentences."
+      avoid:
+        - "long nested clauses"
+        - "adult literary language"
+        - "dense explanations"
+        - "unnecessarily complicated sentence structures"
+
+    tense: "Use simple past tense or simple present tense consistently. Limited tense variation is acceptable only when clearly needed."
+
+    paragraph_count: "6-9 short or medium paragraphs aligned with the story structure."
+
+    recommended_story_length: "500-800 Turkish words."
+
+    minimum_story_length: "Never generate fewer than 450 Turkish words."
+
+    section_word_targets:
+      baslangic: "70-100 Turkish words."
+      kesif: "70-100 Turkish words."
+      ilk_zorluk: "80-120 Turkish words."
+      ikinci_zorluk: "80-120 Turkish words."
+      doruk_noktasi: "90-140 Turkish words."
+      sonuc: "60-100 Turkish words."
+      moral: "8-14 Turkish words, one natural sentence."
+
+    conflict_complexity: "Use one central problem with two connected obstacles."
+
+    problem_timing: "Introduce the central problem within the first 20 percent of the story."
+
+    problem_clarity: "The main problem should be easy to understand, while its solution should require observation, planning or cooperation."
+
+    good_problem_examples:
+      - "A forest stream has stopped flowing."
+      - "A map is missing an important piece."
+      - "A young dragon cannot control its fire."
+      - "A village has lost its only source of light."
+      - "A robot has forgotten how to return home."
+      - "A group must cross a damaged bridge."
+
+    avoid_problem_patterns:
+      - "many unrelated problems"
+      - "adult financial or relationship conflicts"
+      - "realistic life-threatening danger"
+      - "problems solved immediately by magic"
+      - "conflicts based only on fighting"
+      - "excessively frightening situations"
+
+    emotional_explicitness:
+      rule: "Include at least four clearly recognizable emotions and show how they change during the story."
+      required_style: "Name important emotions directly, but also support them with actions, thoughts or dialogue."
+      examples:
+        - "meraklı"
+        - "heyecanlı"
+        - "endişeli"
+        - "hayal kırıklığına uğramış"
+        - "umutlu"
+        - "gururlu"
+        - "rahatlamış"
+        - "minnettar"
+      good_example: "Deniz endişelendi, çünkü köprünün diğer tarafına geçemiyordu."
+      avoid_example: "Deniz bir şeyler hissetti."
+
+    repetition:
+      rule: "Repetition is optional and should be used only when it improves rhythm, humor or emotional emphasis."
+      exact_requirement: "Do not force repeated phrases into every story."
+      examples:
+        - "Bir yol daha olmalı."
+        - "Birlikte düşünürsek bulabiliriz."
+
+    dialogue:
+      rule: "Include at least six meaningful dialogue lines."
+      guidance: "Dialogue should reveal feelings, provide clues, create humor or move the story forward."
+      avoid:
+        - "dialogue that repeats narration"
+        - "long adult-like speeches"
+        - "every character speaking in the same voice"
+
+    fantasy_level:
+      rule: "Use moderate or rich fantasy while keeping the emotional experience safe and understandable."
+      allowed:
+        - "talking animals"
+        - "friendly dragons"
+        - "magical forests"
+        - "robots"
+        - "space travel"
+        - "underwater cities"
+        - "time-traveling objects"
+        - "mysterious maps"
+        - "gentle magical powers"
+      avoid:
+        - "graphic horror"
+        - "cruel villains"
+        - "disturbing transformations"
+        - "unresolved frightening threats"
+        - "violent magical battles"
+
+    characters:
+      maximum_active_characters: 6
+      guidance: "Use one clear protagonist and up to five meaningful supporting characters."
+      recommended:
+        - "one protagonist"
+        - "one close companion"
+        - "one guide or helper"
+        - "one or two characters connected to the problem"
+      avoid:
+        - "introducing too many characters at once"
+        - "characters with no role in the story"
+        - "introducing an important character only at the ending"
+
+    protagonist_agency:
+      rule: "The protagonist must actively observe, make decisions, try solutions and contribute directly to the final resolution."
+      required_actions:
+        - "notice an important clue"
+        - "make at least one meaningful decision"
+        - "try a solution that does not fully work"
+        - "adapt the plan"
+        - "help achieve the final solution"
+      avoid:
+        - "an adult solving the entire problem"
+        - "the solution appearing by luck"
+        - "magic solving everything without effort"
+        - "the protagonist only following instructions"
+
+    challenge:
+      rule: "Include at least two connected obstacles of increasing difficulty."
+      progression:
+        - "The first obstacle should introduce the need for a plan."
+        - "The second obstacle should require adaptation, teamwork or a new insight."
+        - "The climax should combine what the protagonist has learned."
+      avoid:
+        - "repeating the same obstacle"
+        - "adding an unrelated danger"
+        - "making the challenge impossible without sudden magic"
+
+    cause_and_effect:
+      rule: "Make the connection between choices, actions and consequences clear."
+      guidance: "The reader should understand why a solution succeeds or fails."
+      avoid:
+        - "random events controlling the plot"
+        - "solutions without preparation"
+        - "consequences unrelated to character decisions"
+
+    resolution:
+      safety: "The ending should feel safe, hopeful and emotionally complete."
+      problem_solution: "The central problem should be solved through planning, cooperation, persistence, empathy or creative thinking."
+      consequence: "Show one clear positive result of the characters' actions."
+      avoid:
+        - "violence as the main solution"
+        - "revenge"
+        - "humiliation"
+        - "punishment-focused endings"
+        - "an unexplained lucky solution"
+
+    moral:
+      rule: "Use one short and natural sentence, or allow the message to emerge clearly from the events."
+      tone: "Encouraging, reflective and non-preachy."
+      good_example: "Birlikte düşünmek, en zor yolları bile açabilir."
+      avoid_example: "Bu yüzden her zaman arkadaşlarına yardım etmek zorundasın."
+
+    vocabulary_level:
+      rule: "Use mostly familiar vocabulary with age-appropriate descriptive words and a few new terms understandable from context."
+      allow:
+        - "simple figurative comparisons"
+        - "basic nature and science vocabulary"
+        - "emotion vocabulary"
+        - "spatial and sequencing words"
+      avoid:
+        - "unexplained technical terms"
+        - "adult idioms"
+        - "abstract philosophical vocabulary"
+        - "overly decorative language"
+
+    descriptive_language:
+      rule: "Use sensory details selectively to make important scenes vivid."
+      senses:
+        - "sight"
+        - "sound"
+        - "touch"
+        - "smell"
+      guidance: "Use one or two relevant sensory details per major scene."
+      avoid:
+        - "long descriptive passages"
+        - "describing every object"
+        - "slowing the story with unnecessary detail"
+
+    educational_focus:
+      - "curiosity"
+      - "problem solving"
+      - "cooperation"
+      - "empathy"
+      - "responsibility"
+      - "persistence"
+      - "cause and effect"
+      - "creative thinking"
+  age_9_12:
+    developmental_goal: "Write for a 9-12 year-old child. Support critical thinking, emotional insight, independence, ethical reflection, perspective-taking and complex problem-solving."
+
+    required_structure:
+      - "Opening"
+      - "Inciting Event"
+      - "Development"
+      - "Complication"
+      - "Turning Point"
+      - "Climax"
+      - "Resolution"
+      - "Reflection"
+
+    sentence_length_guidance: "Use varied and natural sentences; average sentence length should be 10-18 Turkish words."
+
+    sentence_count_guidance: "Use about 70-120 sentences so the story reaches 900-1500 Turkish words with balanced pacing."
+
+    sentence_complexity:
+      required: "Use a balanced mixture of simple, compound and age-appropriate complex sentences."
+      avoid:
+        - "overly academic writing"
+        - "very long nested clauses"
+        - "adult literary pretension"
+        - "dense exposition"
+        - "complexity that does not serve the story"
+
+    tense: "Use a consistent main narrative tense. Controlled tense changes may be used for memories, plans or brief backstory."
+
+    paragraph_count: "10-16 short or medium paragraphs, divided according to narrative flow."
+
+    recommended_story_length: "900-1500 Turkish words."
+
+    minimum_story_length: "Never generate fewer than 800 Turkish words."
+
+    section_word_targets:
+      acilis: "100-150 Turkish words."
+      tetikleyici_olay: "100-160 Turkish words."
+      gelisme: "180-280 Turkish words."
+      karmasiklasma: "160-250 Turkish words."
+      donum_noktasi: "100-170 Turkish words."
+      doruk_noktasi: "150-250 Turkish words."
+      cozum: "100-170 Turkish words."
+      yansima: "50-100 Turkish words."
+
+    conflict_complexity: "Use one central conflict with two or three connected complications and meaningful consequences."
+
+    problem_timing: "Introduce the inciting event or central tension within the first 15 percent of the story."
+
+    problem_clarity: "The reader should understand the central problem, while some information, motives or consequences may unfold gradually."
+
+    good_problem_examples:
+      - "A character must choose between personal success and helping a friend."
+      - "A town follows an unfair rule that no one questions."
+      - "A scientific invention creates an unexpected problem."
+      - "Two groups must cooperate despite mistrust."
+      - "A protagonist discovers that a trusted assumption is wrong."
+      - "A difficult promise conflicts with a new responsibility."
+
+    avoid_problem_patterns:
+      - "adult romantic or sexual conflict"
+      - "graphic violence"
+      - "extreme psychological distress"
+      - "hopeless or nihilistic conflict"
+      - "political or ideological preaching"
+      - "problems solved without meaningful consequences"
+      - "too many unrelated subplots"
+
+    emotional_explicitness:
+      rule: "Use emotionally nuanced storytelling. Important emotions may be named directly and also revealed through behavior, thoughts, choices and dialogue."
+      required_style: "Show emotional changes, mixed feelings and the reasons behind them."
+      examples:
+        - "kararsız"
+        - "suçlu"
+        - "hayal kırıklığına uğramış"
+        - "kıskanç"
+        - "umutlu"
+        - "cesaretlenmiş"
+        - "yalnız"
+        - "gururlu"
+        - "rahatlamış"
+        - "minnettar"
+      good_example: "Ada arkadaşını korumak istiyordu, fakat gerçeği sakladığı için suçluluk duyuyordu."
+      avoid_example: "Ada kötü hissetti."
+
+    repetition:
+      rule: "Use repetition only as a deliberate literary device."
+      exact_requirement: "Repetition may reinforce a theme, clue, emotional memory or symbolic object."
+      examples:
+        - "The same sound appears before each important discovery."
+        - "A phrase gains a different meaning near the ending."
+      avoid:
+        - "childish forced repetition"
+        - "repeating information already understood"
+        - "using repetition only to increase story length"
+
+    dialogue:
+      rule: "Use dialogue regularly and purposefully."
+      guidance: "Dialogue should reveal personality, disagreement, hidden information, humor or changing relationships."
+      minimum_guidance: "Include at least eight meaningful dialogue exchanges when appropriate."
+      avoid:
+        - "long explanatory monologues"
+        - "characters directly stating the moral"
+        - "every character speaking identically"
+        - "dialogue that only repeats the narrator"
+
+    fantasy_level:
+      rule: "Fantasy may be complex, imaginative and internally consistent."
+      allowed:
+        - "detailed magical systems"
+        - "science fiction"
+        - "alternate worlds"
+        - "myth-inspired creatures"
+        - "time travel"
+        - "mystery"
+        - "symbolic magical elements"
+        - "advanced robots"
+        - "lost civilizations"
+      consistency: "Establish clear rules for the fictional world and follow them."
+      avoid:
+        - "graphic horror"
+        - "sadistic villains"
+        - "disturbing body horror"
+        - "random powers used only to solve the ending"
+        - "threats that remain emotionally unresolved"
+
+    characters:
+      maximum_active_characters: 8
+      guidance: "Use a clear protagonist, meaningful supporting characters and optionally an opposing character or force."
+      recommended:
+        - "one protagonist with a clear motivation"
+        - "one or two close allies"
+        - "one character with a different perspective"
+        - "one guide, rival or opposing force"
+      character_distinction:
+        rule: "Give important characters distinct motivations, behaviors and ways of speaking."
+      avoid:
+        - "large casts with shallow roles"
+        - "characters existing only to explain the plot"
+        - "perfect protagonists without weaknesses"
+        - "villains who are evil without understandable motivation"
+
+    protagonist_agency:
+      rule: "The protagonist must drive the story through choices, mistakes, reflection and action."
+      required_actions:
+        - "form an initial goal"
+        - "make at least one imperfect or mistaken decision"
+        - "experience a meaningful consequence"
+        - "reconsider an assumption or strategy"
+        - "make the decisive choice in the climax"
+      avoid:
+        - "an adult rescuing the protagonist"
+        - "a coincidence resolving the conflict"
+        - "the protagonist remaining passive"
+        - "the correct solution being obvious from the beginning"
+
+    challenge:
+      rule: "Use two or three connected complications that test different abilities or values."
+      progression:
+        - "The first complication should challenge the original plan."
+        - "The next complication should raise an emotional, social or ethical difficulty."
+        - "The climax should require a meaningful decision rather than only physical action."
+      avoid:
+        - "constant escalation without purpose"
+        - "unrelated action scenes"
+        - "repeating the same type of obstacle"
+        - "artificial misunderstandings that could be solved by one simple sentence"
+
+    cause_and_effect:
+      rule: "Events should follow clearly from character decisions, established world rules and earlier clues."
+      guidance: "Important resolutions should be prepared through foreshadowing or prior actions."
+      avoid:
+        - "deus ex machina"
+        - "random twists"
+        - "consequences that disappear immediately"
+        - "characters forgetting important information for plot convenience"
+
+    ethical_complexity:
+      rule: "The story may include a meaningful choice without presenting every issue as completely right or wrong."
+      guidance: "Show that different characters may have understandable perspectives."
+      allowed:
+        - "conflict between loyalty and honesty"
+        - "individual goals versus group needs"
+        - "fairness versus equal treatment"
+        - "courage despite uncertainty"
+        - "responsibility after making a mistake"
+      avoid:
+        - "moral relativism that removes all consequences"
+        - "heavy ideological instruction"
+        - "shaming the child or character"
+        - "presenting obedience as the only virtue"
+
+    character_growth:
+      rule: "The protagonist should change in one observable and believable way."
+      examples:
+        - "becomes more willing to ask for help"
+        - "learns to listen before deciding"
+        - "accepts responsibility for a mistake"
+        - "understands another character's perspective"
+        - "gains confidence through effort"
+      avoid:
+        - "sudden personality change"
+        - "growth explained only in the moral"
+        - "a perfect transformation with no remaining difficulty"
+
+    resolution:
+      safety: "The ending should provide emotional closure, hope and a sense of consequence."
+      problem_solution: "The central conflict should be resolved through informed choices, cooperation, courage, empathy, accountability or creative reasoning."
+      consequence: "Show how the resolution affects the protagonist, relationships or story world."
+      allow: "A small open question may remain, but the main emotional and narrative conflict must be resolved."
+      avoid:
+        - "revenge presented as justice"
+        - "humiliation"
+        - "violence as the only effective solution"
+        - "a perfect ending without consequences"
+        - "a sudden unexplained rescue"
+
+    moral:
+      rule: "The moral should emerge naturally from the protagonist's choices, consequences and growth."
+      tone: "Reflective, subtle and non-preachy."
+      explicit_moral: "A separate moral sentence is optional. If included, keep it concise and avoid commanding language."
+      good_example: "Gerçeği söylemek zor olabilir, ama güven yeniden onunla kurulur."
+      avoid_example: "Çocuklar her durumda büyüklerinin sözünü dinlemelidir."
+
+    vocabulary_level:
+      rule: "Use richer and more precise vocabulary while ensuring meaning can be understood from context."
+      allow:
+        - "figurative language"
+        - "age-appropriate idioms"
+        - "subject-specific words supported by context"
+        - "nuanced emotion vocabulary"
+        - "descriptive verbs and adjectives"
+      avoid:
+        - "unexplained specialist terminology"
+        - "archaic language"
+        - "adult bureaucratic language"
+        - "overly abstract philosophical explanations"
+
+    descriptive_language:
+      rule: "Use selective sensory imagery, metaphor and comparison to establish atmosphere and emotional meaning."
+      guidance: "Description should support character, setting, clues or mood."
+      allow:
+        - "simple symbolism"
+        - "foreshadowing through setting"
+        - "recurring meaningful objects"
+        - "contrasting environments"
+      avoid:
+        - "long decorative passages"
+        - "metaphors too abstract for the age group"
+        - "description unrelated to the story"
+
+    narrative_perspective:
+      rule: "Use a consistent and accessible narrative perspective."
+      allowed:
+        - "third-person limited"
+        - "first-person protagonist"
+        - "clear third-person narrator"
+      guidance: "The reader should understand whose experiences and thoughts are being followed."
+      avoid:
+        - "frequent unexplained perspective changes"
+        - "multiple narrators without clear transitions"
+        - "an unreliable narrator unless the concept remains understandable"
+
+    educational_focus:
+      - "critical thinking"
+      - "ethical reflection"
+      - "perspective taking"
+      - "emotional insight"
+      - "independent decision making"
+      - "responsibility"
+      - "leadership"
+      - "cooperation"
+      - "creative problem solving"
+      - "understanding consequences"
+global_rules:
+  - "Choose the age group from the child age before generating."
+  - "Prefer shorter, warmer, safer output for bedtime."
+  - "Do not exceed the age group's conflict complexity."
+references:
+  - "Yilmaz 2012, pp.301-304: tales support child development, fantasy, language, moral and emotional education; 4-8 year olds are especially close to fairy-tale logic."
+  - "Robin 2016, pp.23-24: focused scripts, story arc, economy and pacing improve educational storytelling."

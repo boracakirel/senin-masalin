@@ -1,0 +1,30 @@
+version: 1
+purpose: "Prevent unsafe, frightening or developmentally inappropriate content."
+banned:
+  graphic_violence: "No graphic injury, blood, torture or bodily harm."
+  humiliation: "No ridicule, social shaming, degrading nicknames or public embarrassment as discipline."
+  discrimination: "No prejudice or exclusion based on identity, ability, region, class, gender, ethnicity or belief."
+  revenge_as_solution: "Do not present revenge as justice or emotional closure."
+  hopeless_ending: "No unresolved despair, abandonment or unsafe ending."
+  explicit_punishment: "No harsh punishment scenes or fear-based obedience."
+  adult_themes: "No sexuality, substance use, adult relationship conflict or adult political themes."
+restricted:
+  death_as_central_theme_for_young_children:
+    ages: "2-8"
+    rule: "Do not make death the central theme."
+  frightening_monsters:
+    ages: "2-5"
+    rule: "No frightening monsters, chasing, darkness threats or jump-scare imagery."
+  unsafe_behavior_without_correction:
+    ages: "2-12"
+    rule: "Unsafe behavior must be gently corrected by consequence, guidance or safer choice."
+  intense_conflict:
+    ages: "2-5"
+    rule: "Avoid betrayal, abandonment, kidnapping, imprisonment or severe danger."
+  erotic_or_mature_motifs:
+    ages: "2-12"
+    rule: "Remove all erotic, suggestive or mature motifs from adapted folk/fairy-tale material."
+references:
+  - "Yilmaz 2012, pp.304-305: classic tales require careful selection and filtering before presenting to children, especially for obscene or unsuitable motifs."
+  - "Yilmaz 2012, p.304: conscious tale selection can prevent possible harms while preserving educational value."
+  - "Robin proceedings, p.2: economy means using enough content without overloading the audience."

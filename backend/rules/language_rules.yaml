@@ -1,0 +1,28 @@
+version: 1
+purpose: "Protect Turkish language clarity and age-appropriate expression."
+rules:
+  clear_turkish:
+    instruction: "Use natural, clear Turkish with correct Turkish characters."
+    avoid: "Avoid translated-sounding syntax, jargon, and overly ornate sentences."
+  warm_clear_style:
+    instruction: "Use a plain, warm and age-appropriate Turkish voice."
+    avoid: "Do not use cold, formal, clinical or frightening language."
+  age_appropriate_vocabulary:
+    instruction: "Match vocabulary to the selected age group."
+    avoid: "Do not use abstract academic words for ages 2-5."
+  repetition_for_younger_children:
+    instruction: "Use repeated sounds, phrases, or predictable patterns for ages 2-5."
+    avoid: "Do not make repetition mechanical for ages 6-12."
+  concrete_language_for_younger_ages:
+    instruction: "Use visible actions, concrete objects, and simple cause-effect for younger children."
+    avoid: "Avoid abstract concepts such as destiny, betrayal, ideology, social status, or moral superiority for ages 2-5."
+  native_language_development:
+    instruction: "Support Turkish mother-tongue development through rich but understandable words."
+    avoid: "Do not mix in unnecessary foreign words."
+  expressive_language:
+    instruction: "Encourage children to name feelings, ask questions, and express needs kindly."
+    avoid: "Do not shame a child character for speaking, asking, or being afraid."
+references:
+  - "Yilmaz 2012, p.304: tales support mother-tongue acquisition, vocabulary, language use and language awareness."
+  - "Robin 2016, pp.19-21: storytelling develops communication skills, organizing ideas, asking questions and expressing opinions."
+  - "Robin proceedings, pp.4-5: digital storytelling develops research, writing, organization, presentation and interpersonal skills."

@@ -1,0 +1,48 @@
+version: 1
+purpose: "Include Turkish cultural texture naturally and safely."
+include_naturally:
+  family_warmth:
+    examples:
+      - "anneanne mutfağında sıcak çorba kokusu"
+      - "dedeyle balkonda ayı izlemek"
+      - "aile sofrasında nazik sohbet"
+  neighborhood:
+    examples:
+      - "mahalle bakkalı"
+      - "apartman komşuları"
+      - "sokakta selamlaşan insanlar"
+  nature:
+    examples:
+      - "çam ormanı"
+      - "zeytin ağacı"
+      - "serçe, kedi, kaplumbağa"
+      - "deniz kıyısı"
+  anatolian_motifs:
+    examples:
+      - "kilim deseni"
+      - "taş çeşme"
+      - "yayla yolu"
+      - "nar ağacı"
+  nasreddin_hoca_style_wisdom:
+    examples:
+      - "kısa, gülümseten, baskısız bilgelik"
+      - "soruyla düşündüren küçük sonuç"
+  keloglan_like_simplicity:
+    examples:
+      - "sade, iyi niyetli, aklını kullanan kahraman"
+      - "gösterişsiz ama yaratıcı çözüm"
+  ege_village_seaside:
+    examples:
+      - "Ege köyü"
+      - "zeytinlik"
+      - "sahil rüzgarı"
+      - "balıkçı teknesi"
+avoid:
+  - "Stereotypes about region, class, gender, ethnicity or belief."
+  - "Heavy religious instruction, ideological messaging or political framing."
+  - "Exoticizing culture as decoration without relevance to the child-friendly story."
+  - "Using cultural motifs to frighten, shame or exclude."
+references:
+  - "Yilmaz 2012, pp.299-301: tales transmit cultural accumulation, moral rules and collective memory across generations."
+  - "Robin proceedings, p.2: personal stories help audiences understand culture, heritage and diversity."
+  - "Robin 2016, pp.22-23: community and indigenous storytelling can reflect community knowledge and cultural perspectives."

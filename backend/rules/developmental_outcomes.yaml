@@ -1,0 +1,68 @@
+developmental_outcomes:
+  age_2_3:
+    emotional:
+      - "The child should feel safe throughout the story."
+      - "The ending should provide comfort and reassurance."
+      - "The child should recognize simple emotions."
+    cognitive:
+      - "The child should easily understand the central problem."
+      - "The child should predict simple story patterns."
+      - "The child should follow a single sequence of events."
+    language:
+      - "The child should hear repetitive sentence patterns."
+      - "The child should learn simple everyday vocabulary."
+      - "The child should easily understand every sentence."
+    social:
+      - "The child should observe kindness and helping behaviors."
+      - "The child should understand simple sharing situations."
+  age_4_5:
+    emotional:
+      - "The child should understand why characters feel different emotions."
+      - "The child should experience curiosity without fear."
+      - "The ending should feel emotionally satisfying."
+    cognitive:
+      - "The child should wonder what happens next."
+      - "The child should understand simple cause-and-effect relationships."
+      - "The child should follow one central problem with one supporting obstacle."
+    language:
+      - "The child should encounter a few new words that are understandable from context."
+      - "The child should become comfortable with short dialogues."
+      - "The child should follow a longer narrative."
+    social:
+      - "The child should recognize cooperation."
+      - "The child should understand friendship and empathy."
+      - "The protagonist should model positive social behavior."
+  age_6_8:
+    emotional:
+      - "The child should empathize with multiple characters."
+      - "The child should recognize emotional growth."
+      - "The ending should feel earned rather than accidental."
+    cognitive:
+      - "The child should solve small mysteries alongside the protagonist."
+      - "The child should understand multiple connected events."
+      - "The child should anticipate possible solutions."
+    language:
+      - "The child should expand vocabulary through contextual learning."
+      - "The child should follow longer dialogues."
+      - "The child should understand more descriptive storytelling."
+    social:
+      - "The child should value teamwork."
+      - "The child should recognize responsibility."
+      - "The child should understand fairness and respect."
+  age_9_12:
+    emotional:
+      - "The child should reflect on characters' motivations."
+      - "The child should recognize emotional complexity."
+      - "The child should identify personal growth."
+    cognitive:
+      - "The child should evaluate different choices and consequences."
+      - "The child should think critically about the story."
+      - "The child should understand multi-step problem solving."
+    language:
+      - "The child should encounter richer vocabulary."
+      - "The child should appreciate descriptive language."
+      - "The child should follow more complex story structures."
+    social:
+      - "The child should reflect on ethical decisions."
+      - "The child should appreciate different perspectives."
+      - "The child should understand leadership, cooperation and responsibility."

@@ -1,0 +1,115 @@
+version: 1
+purpose: "Use exactly 1-3 controlled story themes selected by the parent."
+selection_rules:
+  minimum: 1
+  maximum: 3
+  combine_selected_themes: "Blend selected themes into one coherent story world instead of writing separate mini-stories."
+  primary_theme: "Treat the first selected theme as the main setting or story frame."
+  secondary_themes: "Use second and third themes as gentle motifs, helpers, objects or locations."
+  age_safety: "Apply age_rules.yaml and forbidden_content.yaml before using any theme's fantasy, danger or mystery elements."
+  no_unlisted_themes: "Do not invent additional theme categories outside this file."
+themes:
+  orman:
+    label: "🌳 Orman"
+    setting_guidance: "Use trees, paths, birds, squirrels, leaves, fresh air and safe discovery."
+    safe_conflicts: "A lost sound, hidden nest, missing acorn, or helping a small animal find its way."
+    avoid: "Deep dark forest fear, predatory chase, abandonment or getting lost without guidance."
+  deniz_alti:
+    label: "🐠 Deniz Altı"
+    setting_guidance: "Use colorful fish, shells, coral-like gardens, bubbles and calm underwater wonder."
+    safe_conflicts: "A shy fish needs help, a shell is misplaced, or friends clean a small corner of the sea."
+    avoid: "Drowning fear, aggressive sharks, storms, pressure danger or pollution anxiety for young ages."
+  uzay:
+    label: "🚀 Uzay"
+    setting_guidance: "Use stars, moonlight, friendly planets, soft rockets and gentle curiosity."
+    safe_conflicts: "A star map is mixed up, a planet feels lonely, or a rocket needs teamwork."
+    avoid: "Cosmic disasters, isolation panic, war, explosions or existential fear."
+  dinozorlar:
+    label: "🦖 Dinozorlar"
+    setting_guidance: "Use friendly dinosaurs, big footprints, leafy valleys and playful size contrast."
+    safe_conflicts: "A small dinosaur wants confidence, a big dinosaur learns gentleness, or friends solve a trail puzzle."
+    avoid: "Predator attacks, extinction, roaring terror or realistic violence."
+  prenses_ve_sato:
+    label: "🏰 Prenses ve Şato"
+    setting_guidance: "Use castles, gardens, kind royalty, helpful guards and fair choices."
+    safe_conflicts: "A castle bell is missing, a garden party needs cooperation, or a princess solves a problem actively."
+    avoid: "Passive rescue, class superiority, forced marriage, vanity or helpless princess tropes."
+  sihirli_dunya:
+    label: "🧙 Sihirli Dünya"
+    setting_guidance: "Use gentle magic, glowing objects, wise mentors and clear limits."
+    safe_conflicts: "A spell causes a funny mistake that is repaired through honesty, patience or teamwork."
+    avoid: "Dark magic, curses, frightening transformation, occult detail or magic replacing effort."
+  tek_boynuzlu_atlar:
+    label: "🦄 Tek Boynuzlu Atlar"
+    setting_guidance: "Use kindness, soft colors, trust, gentle rides and magical friendship."
+    safe_conflicts: "A unicorn loses confidence, a rainbow path fades, or friendship restores glow."
+    avoid: "Overly sugary perfection, jealousy over beauty, dangerous riding or exclusion."
+  ejderhalar:
+    label: "🐉 Ejderhalar"
+    setting_guidance: "Use friendly or misunderstood dragons with warm breath, wisdom and protective gentleness."
+    safe_conflicts: "A dragon learns to use strength carefully or needs help making friends."
+    avoid: "Fire attacks, village destruction, monster fear for ages 2-5 or battle framing."
+  periler:
+    label: "🧚 Periler"
+    setting_guidance: "Use tiny helpers, sparkling dust, flowers, kindness and quiet surprises."
+    safe_conflicts: "A fairy loses a tiny tool, learns patience, or helps without being noticed."
+    avoid: "Trickery that humiliates, scary curses, beauty ranking or unsafe flying."
+  korsanlar:
+    label: "🏴‍☠️ Korsanlar"
+    setting_guidance: "Use treasure maps, ships, teamwork, sea breeze and playful exploration."
+    safe_conflicts: "Friends decode a map, share treasure fairly, or repair a ship together."
+    avoid: "Violence, stealing as success, weapons, revenge, threats or kidnapping."
+  robotlar:
+    label: "🤖 Robotlar"
+    setting_guidance: "Use kind robots, helpful inventions, buttons, beeps and problem-solving."
+    safe_conflicts: "A robot misunderstands feelings and learns empathy from the protagonist."
+    avoid: "AI takeover, surveillance fear, dehumanization or replacing friendship with machines."
+  trenler:
+    label: "🚂 Trenler"
+    setting_guidance: "Use stations, friendly conductors, rhythmic journeys and scenic windows."
+    safe_conflicts: "A ticket is misplaced, a passenger needs help, or the train learns patience at stops."
+    avoid: "Crashes, unsafe tracks, separation panic or high-speed danger."
+  ciftlik:
+    label: "🚜 Çiftlik"
+    setting_guidance: "Use animals, gardens, tractors, morning chores and care for living things."
+    safe_conflicts: "A chick wanders, a seed needs patience, or animals cooperate for a small task."
+    avoid: "Animal harm, harsh labor, food-chain fear or adult burdens."
+  gokkusagi:
+    label: "🌈 Gökkuşağı"
+    setting_guidance: "Use colors, light rain, hope, diversity and gentle wonder."
+    safe_conflicts: "A color feels forgotten, friends restore balance, or a rainbow path guides kindness."
+    avoid: "Abstract symbolism too complex for young ages or color hierarchy."
+  bulutlar:
+    label: "☁️ Bulutlar"
+    setting_guidance: "Use soft clouds, sky shapes, imagination, breeze and calm movement."
+    safe_conflicts: "A cloud changes shape to comfort someone or learns it can be many things."
+    avoid: "Falling fear, storms as terror or separation from home."
+  karlar_ulkesi:
+    label: "❄️ Karlar Ülkesi"
+    setting_guidance: "Use snowflakes, warm clothes, cozy homes, gentle ice sparkle and winter friendship."
+    safe_conflicts: "A path is covered by snow, friends share warmth, or a snow figure needs a smile."
+    avoid: "Freezing danger, isolation, blizzards for young ages or fear of cold."
+  cicek_bahcesi:
+    label: "🌸 Çiçek Bahçesi"
+    setting_guidance: "Use flowers, bees, butterflies, watering cans, patience and care."
+    safe_conflicts: "A flower needs time to bloom, a bee needs directions, or friends tend a garden."
+    avoid: "Allergy fear, insects as scary swarms or beauty comparison."
+  kamp_macerasi:
+    label: "🏕️ Kamp Macerası"
+    setting_guidance: "Use tents, safe campfire warmth, stars, songs and family or friend togetherness."
+    safe_conflicts: "A lantern dims, a blanket is missing, or friends learn safe teamwork outdoors."
+    avoid: "Getting lost, wild animal attacks, fire danger without correction or night terror."
+  gizemli_ada:
+    label: "🏝️ Gizemli Ada"
+    setting_guidance: "Use beaches, palms, maps, shells and gentle mystery."
+    safe_conflicts: "A map leads to a kindness treasure or the island's puzzle needs cooperation."
+    avoid: "Stranding, survival fear, hostile natives, dangerous traps or loneliness panic."
+  sirk:
+    label: "🎪 Sirk"
+    setting_guidance: "Use colorful tents, music, acrobatic practice, clowns as kind helpers and teamwork."
+    safe_conflicts: "A performer feels nervous, friends prepare a gentle show, or everyone finds a role."
+    avoid: "Animal exploitation, scary clowns, dangerous stunts, ridicule or pressure to perform."
+references:
+  - "Robin proceedings, p.2: strong stories need a dramatic question, emotional content, economy and pacing, so themes must stay focused."
+  - "Robin 2016, p.23: story scripts should be small, focused and audience-aware."
+  - "Yilmaz 2012, pp.301-304: fantasy can support children when consciously selected and developmentally appropriate."
